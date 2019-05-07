@@ -1,0 +1,22 @@
+{
+  "name": "node_setup_docker",
+  "version": "1.0.0",
+  "description": "A boiler plate for node setup using docker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Initial-Setup-of-a-New-NodeJs-Project-using-Docker"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Bilal Mubeen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
