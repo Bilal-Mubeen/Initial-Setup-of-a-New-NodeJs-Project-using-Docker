@@ -1,6 +1,6 @@
 FROM node:alpine
 
-WORKDIR /src
+WORKDIR /home/node/app
 
 COPY src/package.json ./
 
@@ -10,6 +10,6 @@ RUN npm install
 
 COPY . .
 
-CMD node src/app.js
+CMD node ./app.js
 
 EXPOSE 1234

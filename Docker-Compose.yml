@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+    backend:
+      container_name: backend
+      image: backend
+      user: "node"
+      build:
+        context: .
+        dockerfile: ./Dockerfile
+      working_dir: /home/node/app
+      environment: 
+          - NODE_ENV=development
+      command: "npm start"
+      ports : 
+        - 8081:1234
